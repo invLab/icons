@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .container{
+                 width: 800px;
+                 height: 800px;
+                 position: relative;
+                 margin: 20px;
+                 text-align: center;
+                 }
+            .face{
+                height: 150px;
+                width: 150px;
+                border-radius: 50%;
+                display: inline-block;
+                background-color: rgba(216, 228, 163, 0.795);
+                position: absolute;
+            }
+
+            .eyes{
+                height: 30px;
+                width: 30px;
+                border-radius: 50%;
+                display: inline-block;
+                background-color: rgba(14, 14, 13, 0.795);
+            
+            }
+
+            .nose{
+                height: 20px;
+                width: 12px;
+                border-radius: 50%;
+                display: inline-block;
+                box-shadow: 1px 0 0 0 black;
+                background-color: rgba(14, 14, 13, 0.795);
+            }
+            .mouth{
+                height: 2px;
+                width: 50px;
+                border-radius: 50%/100px 100px 0 0;
+                display: inline-block;
+                box-shadow: 0 1px 0 0 rgb(94, 80, 80);
+                background-color: rgba(14, 14, 13, 0.795);
+            }
+            .neck{
+                height: 28px;
+                width: 40px;
+                display: inline-block;
+                background-color: rgba(14, 14, 13, 0.795);
+            }
+            .midbody{
+                height: 260px;
+                width: 180px;
+                display: inline-block;
+                background-color: rgba(14, 14, 13, 0.795);
+                position: relative;
+            }
+            .leg{
+                height: 260px;
+                width: 60px;
+                display: inline-block;
+                background-color: rgba(14, 14, 13, 0.795);
+            }
+            .hand{
+                height: 240px;
+                width: 40px;
+                display: inline-block;
+                background-color: rgba(14, 14, 13, 0.795);
+                text-align: center;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="face">
+                <div>
+                    <span class="eyes" style="margin-top: 30%; margin-right: 10%;"></span>
+                    <span class="eyes" style="margin-top: 30%; margin-left: 10%;"></span>
+                </div>
+                <div style="margin-top: 10%">
+                    <span class="mouth"></span>
+                </div> 
+            </div>
+
+            <div>
+                <div class="neck" style="margin-top: 18%;margin-left: 19%;"></div>
+            </div>
+
+            <div style="margin-left: 20%;">
+                <div class="hand" style="margin-bottom: 2.5%;"></div>
+                <div class="midbody" ></div>
+                <div class="hand" style="margin-bottom: 2.5%;"></div>
+            </div>
+
+            <div>
+                <div class="leg" style="margin-left: 20%;"></div>
+                <div class="leg" style="margin-left: 6%;"></div>
+            </div>
+
+        </div>
+        
+    </body>
+</html>
